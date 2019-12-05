@@ -5,9 +5,9 @@
     "passes": 10,
     "pending": 0,
     "failures": 0,
-    "start": "2019-12-05T21:46:07.656Z",
-    "end": "2019-12-05T21:46:07.952Z",
-    "duration": 296
+    "start": "2019-12-05T21:51:19.091Z",
+    "end": "2019-12-05T21:51:19.368Z",
+    "duration": 277
   },
   "tests": [
     {
@@ -27,28 +27,28 @@
     {
       "title": "each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
       "fullTitle": "<Matrix /> each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
-      "duration": 9,
+      "duration": 16,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
       "fullTitle": "<Cell /> is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
-      "duration": 19,
+      "duration": 12,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a state key of 'color'",
       "fullTitle": "<Cell /> has a state key of 'color'",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "state.color is initially set to the 'value' prop passed from Matrix",
       "fullTitle": "<Cell /> state.color is initially set to the 'value' prop passed from Matrix",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -101,28 +101,28 @@
     {
       "title": "each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
       "fullTitle": "<Matrix /> each sub-array of the default values prop is filled with 10 hex color string equal to: '#F00'",
-      "duration": 9,
+      "duration": 16,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
       "fullTitle": "<Cell /> is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
-      "duration": 19,
+      "duration": 12,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has a state key of 'color'",
       "fullTitle": "<Cell /> has a state key of 'color'",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "state.color is initially set to the 'value' prop passed from Matrix",
       "fullTitle": "<Cell /> state.color is initially set to the 'value' prop passed from Matrix",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
