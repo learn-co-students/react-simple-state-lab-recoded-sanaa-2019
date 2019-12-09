@@ -4,22 +4,21 @@ class Cell extends Component {
     constructor(props) {
       super()
       this.state={
-          color:props.color
+          color:this.props.value
       }
     }
     
-    clickHandler = () => {
+    clickHandler = (c="#333") => {
       this.setState(
           {
-              color:"#333"
+              color:c
           }
       )
     }
     
     render() {
       return (
-          <div className="cell" style={{backgroundColor: this.state.color}} onClick={this.clickHandler}>
-              
+          <div className="cell" style={{backgroundColor: this.state.value}} onClick={this.clickHandler}>
           </div>
       )
     }
