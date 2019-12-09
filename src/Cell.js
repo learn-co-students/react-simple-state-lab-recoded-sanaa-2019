@@ -6,16 +6,17 @@ export default class Cell extends Component {
         super()
         this.state = {
             color:props.value,
-        } // ...define initial state with a key of 'color' set to the 'value' prop
+        } 
+        // ...define initial state with a key of 'color' set to the 'value' prop
       }
-      updatState=()=>{
+     newColor=(color)=>{
       this.setState({
-          color:'#333'
+          color:color
       })}
 
   render() {
     return (
-      <div className="cell" style={{backgroundColor:this.state.color}} onClick={this.updatState}>
+      <div className="cell" style={{backgroundColor:this.state.color}} onClick={()=>this.newColor( '#333')}>
       </div>
     )
   }
